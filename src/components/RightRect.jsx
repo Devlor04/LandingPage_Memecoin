@@ -1,17 +1,19 @@
 import { useState } from "react";
+import image6 from '../images/6.jpg';
+import image7 from '../images/7.jpg';
 
 const RightRect = () => {
   const [open, setOpen] = useState(false);
 
-  const firstImage = "https://vb.1cdn.vn/2019/04/28/danviet.mediacdn.vn-upload-2-2019-images-2019-04-28-_fan-nam-xon-mat-vi-bo-anh-sexy-gia-12-trieu-cua-thien-than-phim-18-mikami-7-1556418558-width660height825.jpg";
-  const secondImage = "https://tq6.mediacdn.vn/thumb_w/640/133514250583805952/2020/6/12/photo-1-15919319374091505369754.jpg";
+  const firstImage = image6
+  const secondImage = image7
 
   return (
     <div
       className={`
-        hidden md:block fixed z-50 top-1/2 transform -translate-y-1/2 
-        w-64 h-96                                   /* Hình chữ nhật (256x384) */
-        lg:w-60 lg:h-90                             /* Nhỏ hơn chút trên laptop */
+        hidden lg:block fixed z-50 top-1/2 transform -translate-y-1/2 
+        w-64 h-96                                  
+        lg:w-60 lg:h-90                            
         rounded-tl-full rounded-tr-full
         cursor-pointer transition-all
       `}

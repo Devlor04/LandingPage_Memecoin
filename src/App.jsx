@@ -14,17 +14,27 @@ function App() {
 
   return (
     <>
- <div className="bg-[#f2ddda] w-full min-h-screen">
+ <div className="bg-[#D0D7E1] w-full min-h-screen">
       <Header />
       <LeftCircle />
       <RightRect />
 
-      <ContentWrapper className="bg-white" width="450px">
-        <Contact />
-        <Introduction />
-        <Tokenomics />
-        <RoadMap />
-        <ClaimSOL />
+      <ContentWrapper className="bg-[#dfe6ef]"maxWidth="md">
+        <div id="contact">
+          <Contact />
+        </div>
+        <div id="introduction">
+          <Introduction />
+        </div>
+        <div id="tokenomics">
+          <Tokenomics />
+        </div>
+        <div id="roadmap">
+          <RoadMap />
+        </div>
+        <div id="claimsol">
+          <ClaimSOL />
+        </div>
         <Footer />
       </ContentWrapper>
     </div>

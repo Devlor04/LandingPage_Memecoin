@@ -3,22 +3,22 @@ import React, { useState } from "react";
 const wallets = [
   {
     name: "Phantom",
-    bg: "bg-[#d9e9ff]",
+    bg: "bg-[#D0D7E1]",
     img: "https://187760183-files.gitbook.io/~/files/v0/b/gitbook-x-prod.appspot.com/o/spaces%2F-MVOiF6Zqit57q_hxJYp%2Ficon%2FU7kNZ4ygz4QW1rUwOuTT%2FWhite%20Ghost_docs_nu.svg?alt=media&token=447b91f6-db6d-4791-902d-35d75c19c3d1",
   },
   {
     name: "Solflare",
-    bg: "bg-[#f5faff]",
+    bg: "bg-[#D0D7E1]",
     img: "https://cdn.prod.website-files.com/66e480f0e9eccea9c231ce92/66e619478b339554984f72ff_solflare-wallet-logo.png",
   },
   {
     name: "Backpack",
-    bg: "bg-[#d9e9ff]",
+    bg: "bg-[#D0D7E1]",
     img: "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTERI7IuoY-Ff8NfhnC5aUQ-yBfbkZ2UyOIzA&s",
   },
   {
     name: "Ledger",
-    bg: "bg-[#f5faff]",
+    bg: "bg-[#D0D7E1]",
     img: "https://avatars.githubusercontent.com/u/9784193?s=280&v=4",
   },
 ];
@@ -29,13 +29,13 @@ const ClaimSOL = () => {
   return (
     <>
       {/* Nút và phần nội dung chính */}
-      <div className="bg-[#f3e9e2] min-h-50px flex items-center justify-center font-['Inter']">
+      <div className="bg-[#D0D7E1] min-h-50px flex items-center justify-center font-['Inter']">
         <div className="text-center max-w-xs w-full px-6 py-8">
           <p className="text-[13px] font-semibold text-[#5a504a] leading-none">
-            Mikami DEPOSIT EVENT REFUND
+            Fukada Airdrop & Firesale Event
           </p>
           <p className="text-[8px] text-[#a39f9b] mt-[2px] mb-4 leading-none">
-            (INELIGIBLE DEPOSITS)
+            (You haven't joined yet.)
           </p>
           <p className="text-[11px] text-[#5a6a7a] mb-1">CHECK YOUR ALLOCATION</p>
           <p className="text-[20px] font-extrabold text-[#3a4756] mb-6 leading-none">

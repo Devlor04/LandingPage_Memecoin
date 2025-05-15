@@ -1,13 +1,14 @@
 import { useState } from "react";
 import { Menu, X } from "lucide-react";
+import myImage from '../images/2.jpg';
 import { PieChart, Pie, Cell, ResponsiveContainer } from "recharts";
 
 const data = [
-  { name: "FIRESALE DEBUT", value: 20, color: "#B98B8D" },
-  { name: "LIQUIDITY", value: 15, color: "#F7B1B9" },
-  { name: "COMMUNITY", value: 10, color: "#F7C1C4" },
-  { name: "MARKETING", value: 5, color: "#F7E9E8" },
-  { name: "MIKAMI YUA", value: 50, color: "#F7F1F0" },
+  { name: "FIRESALE ", value: 20, color: "#072D44" },
+  { name: "LIQUIDITY", value: 15, color: "#064469" },
+  { name: "COMMUNITY", value: 10, color: "#5790AB" },
+  { name: "MARKETING", value: 5, color: "#9CCDDB" },
+  { name: "EIMI FUKADA", value: 50, color: "#D0D7E1" },
 ];
 
 const RADIAN = Math.PI / 180;
@@ -31,7 +32,7 @@ const Tokenomics = () => {
   };
 
   return (
-    <div className="bg-white min-h-60px">
+    <div className="bg-[#d5dfeb] min-h-60px">
   
 
       {/* Tokenomics Pie Chart */}
@@ -62,11 +63,11 @@ const Tokenomics = () => {
             </ResponsiveContainer>
 
             {/* Inner circle with the image */}
-            <div className="absolute top-1/2 left-1/2 transform -translate-x-1/2 -translate-y-1/2 w-32 h-32 rounded-full bg-white overflow-hidden">
+           <div className="absolute top-1/2 left-1/2 transform -translate-x-1/2 -translate-y-1/2 w-32 h-32 rounded-full bg-white overflow-hidden flex items-start justify-center">
               <img
+                src={myImage}
                 alt="Tokenomics center image"
-                className="w-full h-full object-cover"
-                src="https://assets.exp.gg/2021/07/yua-mikami-lien-tuc-dang-tai-anh-nong-bong-2.jpg"
+                className="w-full h-auto object-top translate-x-0.25"
               />
             </div>
           </div>
